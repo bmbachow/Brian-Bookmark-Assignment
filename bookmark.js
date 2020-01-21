@@ -34,12 +34,17 @@ const store = {
 function newButtonClick(){
 
   $('#new').click(event=>{
-    $('#bookmark-form').toggleClass('hidden');
+    $('#bookmark-form').append('#bookmark-form');
   });
 }
+
+function deleteButtonClick()
+
+
 
 // set up event lister for Form
 // get values of user input to include in the ->
 // fetch and post requests
 
 $(newButtonClick);
+$(deleteButtonClick);

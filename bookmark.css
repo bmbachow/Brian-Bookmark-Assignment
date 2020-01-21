@@ -6,18 +6,19 @@
 
 }
 
-.hidden{
-  display: none;
-}
 
 #rating{
 
 }
 
-h1{
+.repeatable{
 
-  background-color: red;
-  font-size: 60px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: rgb(83, 83, 148);
+}
+
+#bookmark-form{
+
+}
+
+.hidden{
+  
 }
